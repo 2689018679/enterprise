@@ -288,10 +288,21 @@ section .section_bottom .left{
 	width: 783px;
 	height: 100%;
 }
+section .section_bottom .left:hover img{
+	transform: scale(1.2, 1.2);
+}
+section .section_bottom .left:hover .left_bottom .word{
+	margin: 58px 0 0 88px;
+}
 section .section_bottom .left_top{
 	height: 382px;
-	background: url('../img/4.png') no-repeat center;
-	background-size: 100% 100%; 
+	overflow: hidden;
+}
+section .section_bottom .left_top img{
+	display: block;
+	width: 783px;
+	height: 382px;
+	transition: all .36s;
 }
 section .section_bottom .left_bottom{
 	height: 195px;
@@ -322,21 +333,33 @@ section .section_bottom .right li{
 	height: 136px;
 	margin-bottom: 12px;
 	background: #F3F3F3;
+}
+section .section_bottom .right li .news_img{
+	width: 171px;
+	height: 84px;
+	margin: 25px 0 0 25px;
+	float: left;
 	overflow: hidden;
+}
+section .section_bottom .right li:hover img{
+	transform: scale(1.2,1.2);
+}
+section .section_bottom .right li:hover .word{
+	margin-left: 10px;
 }
 section .section_bottom .right li img{
 	display: block;
 	width: 171px;
 	height: 84px;
-	margin: 25px 0 0 25px;
-	float: left;
+	transition: all .36s;
 }
 section .section_bottom .right li .word{
 	width: 430px;
-	height: 136px;
+	height: 114px;
 	margin-left: 25px;
 	float: left;
 	padding-top: 22px;
+	transition: all .36s;
 }
 section .section_bottom .right li .word span{
 	display: block;

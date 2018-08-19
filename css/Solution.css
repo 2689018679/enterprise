@@ -166,39 +166,79 @@ nav .nav_word p{
 }
 main{
 	width: 1250px;
-	height: 655px;
-	margin: 30px auto 120px;
-	border: 1px solid #e2e2e2;
+	height: 760px;
+	margin: 80px auto 0;
 }
-main .main_top{
-	width: 1150px;
-	height: 420px;
-	margin: 0 auto;
-	border-bottom: 1px solid #dddddd;
-	display: flex;
+main span,section span{
+	font-size: 30px;
+	color: #000;
 }
-main .main_top img{
+main p{
+	font-size: 15px;
+	color: #666;
+	line-height:2;
+	margin-top: 15px;
+}
+main img{
 	display: block;
-	width: 416px;
-	height: 283px;
-	margin: 69px 74px 0 0;
+	width: 1250px;
+	margin-top: 30px;
 }
-main .main_top p{
-	display: inline-block;
-	margin-top: 69px;
-	font-size: 14px;
-	line-height: 34px;
-	color: #808080;
+section{
+	width: 1250px;
+	height: 360px;
+	margin: 80px auto 120px;
 }
-main .main_bottom{
-	width: 1150px;
-	height: 200px;
+section ul{
+	width: 1250px;
+	height: 318px;
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+section li{
+	width: 30%;
+	height: 318px;
+	border: 1px solid #EDEDED;
+	box-sizing: border-box;
+	padding: 0 40px;
+}
+section li .top{
+	height: 215px;
+	border-bottom: 1px solid #ccc;
+}
+section li .top img{
+	display: block;
+	width: 68px;
+	height: 68px;
 	margin: 30px auto 0;
 }
-main .main_bottom p{
-	font-size: 14px;
-	line-height: 34px;
-	color: #808080;
+section li .top span{
+	display: block;
+	font-size: 18px;
+	text-align: center;
+	margin: 15px 0;
+}
+section li .top p{
+	font-size: 13px;
+	line-height: 2;
+	color: #898989;
+}
+section li .bottom{
+	height: 43px;
+	margin-top: 12px;
+	display: flex;
+}
+section li .bottom span{
+	display: inline-block;
+	height: 43px;
+	font-size: 13px;
+	line-height: 43px;
+	color: #898989;
+}
+section li .bottom img{
+	display: inline-block;
+	height: 43px;
 }
 aside ul{
 	width: 54px;

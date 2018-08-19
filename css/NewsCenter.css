@@ -150,7 +150,7 @@ nav{
 	background: #f7f7f7;
 }
 nav .nav_word{
-	width: 240px;
+	width: 300px;
 	height: 23px;
 	margin: 39px 0 0 150px;
 }
@@ -164,41 +164,29 @@ nav .nav_word p{
 	font-size: 17px;
 	color: #5ddffe;
 }
-main{
-	width: 1250px;
-	height: 655px;
-	margin: 30px auto 120px;
-	border: 1px solid #e2e2e2;
+.service{
+	width: 100%;
+	height: 260px;
+	padding-top: 50px;
 }
-main .main_top{
-	width: 1150px;
-	height: 420px;
+.service .service1{
+	width: 1350px;
+	height: 150px;
 	margin: 0 auto;
-	border-bottom: 1px solid #dddddd;
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
-main .main_top img{
+.service .service1 li{
+	width: 16%;
+	height: 50%;
+	margin-bottom: 10px;
+}
+.service .service1 li img{
 	display: block;
-	width: 416px;
-	height: 283px;
-	margin: 69px 74px 0 0;
-}
-main .main_top p{
-	display: inline-block;
-	margin-top: 69px;
-	font-size: 14px;
-	line-height: 34px;
-	color: #808080;
-}
-main .main_bottom{
-	width: 1150px;
-	height: 200px;
-	margin: 30px auto 0;
-}
-main .main_bottom p{
-	font-size: 14px;
-	line-height: 34px;
-	color: #808080;
+	width: 135px;
+	height: 45px;
+	margin: 20px auto 10px;
 }
 aside ul{
 	width: 54px;
@@ -249,4 +237,85 @@ aside a:last-child:hover{
 	width: 30px;
 	transform: none;
 	background: #142038;
+}
+main{
+	width: 1250px;
+	height: 780px;
+	margin: 30px auto 100px;
+	display: flex;
+	justify-content: space-between;
+}
+main .main_left{
+	width: 260px;
+	height: 220px;
+	border: 1px solid #E2E2E2;
+	padding: 32px;
+}
+main .main_right{
+	width: 880px;
+	height: 710px;
+	border: 1px solid #E2E2E2;
+	padding: 34px;
+	margin-left: 30px;
+}
+main .main_left span{
+	font-size: 25px;
+	font-weight: bold;
+}
+main .main_left p{
+	font-size: 15px;
+	color: #BABABA;
+	line-height: 25px;
+}
+main .main_left ul{
+	border-top: 2px solid #B5B5B5;
+	margin-top: 15px;
+}
+main .main_left li{
+	padding: 12px 10px 12px 0;
+	border-bottom: 1px solid #E0E0E0;
+	font-size: 15px;
+	line-height: 30px;
+}
+main .main_left li:hover {
+	color: #5DDFFE;
+}
+main .main_left li:last-child{
+	border: none;
+}
+main .main_right .left{
+	width: 760px;
+	height: 90px;
+	float: left;
+}
+main .main_right .left span{
+	font-size: 18px;
+	font-weight: 400;
+}
+main .main_right .left p{
+	font-size: 14px;
+	color: #999;
+	line-height: 50px;
+}
+main .main_right .right{
+	width: 90px;
+	height: 90px;
+	float: right;
+	overflow: hidden;
+}
+main .main_right li{
+	width: 850px;
+	height: 90px;
+	padding-top: 12px;
+	padding-bottom: 6px;
+	border-bottom: 1px solid #EDEDED;
+}
+main .main_right li:hover .right img{
+	transform: scale(1.2, 1.2);
+}
+main .main_right .right img{
+	display: block;
+	width: 90px;
+	height: 90px;
+	transition: all .36s;
 }
