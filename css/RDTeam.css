@@ -1,0 +1,272 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+.header_top{
+	width: 100%;
+	height: 84px;
+	border-bottom: 1px solid #393D40;
+	background: #191919;
+	overflow: hidden;
+}
+.header_top .left{
+	width: 160px;
+	height: 64px;
+	padding: 20px 0 10px 0;
+	float: left;
+	margin-left: 180px;
+	margin-right: 164px;
+}
+.header_top .left img{
+	display: block;
+	width: 125px;
+	height: 53px;
+}
+.header_top .center{
+	width: 550px;
+	height: 84px;
+	float: left;
+	display: flex;
+	padding: 0;
+	justify-content: space-between;
+}
+.header_top .center li{
+	width: 58px;
+	height: 100%;
+	float: left;
+	font-size: 14px;
+	color: #fff;
+	line-height: 84px;
+}
+.header_top .center li:hover{
+	border-bottom: 1px solid #5DDFFE;
+	color: #5DDFFE;
+}
+.header_top .right{
+	height: 84px;
+	float: right;
+	line-height: 84px;
+	font-size: 16px;
+	margin-right: 140px;
+}
+.header_top .right i{
+	color: #fff;
+	display: inline-block;
+	float: right
+}
+.header_top .right span{
+	display: inline-block;
+	float: right;
+	color: #fff;
+}
+
+.Authentication{
+	width: 100%;
+	height: 272px;
+	background: #29323D;
+	overflow: hidden;
+}
+.Authentication1{
+	width: 1190px;
+	height: 180px;
+	margin: 60px auto 0;
+	display: flex;
+}
+.Authentication1 .list1{
+	width: 300px;
+	height: 160px;
+	padding: 10px 30px 10px 10px;
+}
+.Authentication1 .list1 span,.Authentication1 .list2 span,
+.Authentication1 .list3 span,.Authentication1 .list4 span{
+	display: block;
+	font-size: 18px;
+	color: #fff;
+	margin-bottom: 13px;
+}
+.Authentication1 .list1 p{
+	font-size: 13px;
+	color:#8d9095;
+	line-height: 25px;
+}
+.Authentication1 .list2{
+	width: 290px;
+	height: 160px;
+	padding: 10px;
+}
+.Authentication1 .list2 img{
+	display: inline-block;
+	width: 38px;
+	height: 38px;
+}
+.Authentication1 .list2 .tu1{
+	height: 50px;
+	display: flex;
+}
+.Authentication1 .list2 .tu1 span{
+	width: 227px;
+	display: inline-block;
+	font-size: 13px;
+	color: #8d9095;
+	padding-top: 11px;
+	margin-bottom: 0;
+}
+.Authentication1 .list3{
+	width: 290px;
+	height: 160px;
+	padding: 10px;
+}
+.Authentication1 .list3 p{
+	font-size: 15px;
+	color:#8d9095;
+	line-height: 32px;
+}
+.Authentication1 .list4 img{
+	display: block;
+	width: 90px;
+	height: 90px;
+}
+footer{
+	width: 100%;
+	height: 30px;
+	padding-top: 20px;
+	background: #19212D;
+}
+footer span{
+	display: block;
+	text-align: center;
+	font-size: 13px;
+	color: #696969;
+}
+nav{
+	width: 100%;
+	height: 95px;
+	overflow: hidden;
+	background: #f7f7f7;
+}
+nav .nav_word{
+	width: 300px;
+	height: 23px;
+	margin: 39px 0 0 150px;
+}
+nav .nav_word span{
+	display: inline-block;
+	font-size: 15px;
+	color: #666666;
+}
+nav .nav_word p{
+	display: inline-block;
+	font-size: 15px;
+	color: #5ddffe;
+}
+main{
+	width: 1250px;
+	height: 1200px;
+	margin: 30px auto 100px;
+}
+main li{
+	height: 260px;
+	border:1px solid #EAEAEA;
+	display: flex;
+	margin-bottom: 30px;
+	padding-bottom: 6px;
+}
+main li .left{
+	width: 260px;
+	height: 260px;
+	position: relative;
+	overflow: hidden;
+}
+main li .left .box{
+	width: 260px;
+	height: 260px;
+	background: rgba(255, 255, 255, .6);
+	position: absolute;
+	top: -260px;
+	left: 0;
+	transition: all 1s;
+}
+main li .left .box i{
+	display: block;
+	font-size: 70px;
+	line-height: 260px;
+	text-align: center;
+	color: #555;
+}
+main li:hover .right span p{
+	width: 40px;
+}
+main li:hover .left .box{
+	transform: translateY(260px);
+}
+main li .left img{
+	display: block;
+	width: 260px;
+	height: 260px;
+}
+main li .right{
+	width: 900px;
+	height: 185px;
+	margin-left: 30px;
+	padding-top: 75px;
+}
+main li .right span{
+	font-size: 22px;
+	color: #696969;
+	line-height: 50px;
+}
+main li .right p{
+	color: #999;
+	font-size: 13px;
+	line-height: 24px;
+}
+main li .right span p{
+	display: inline-block;
+	width: 0px;
+	height: 2px;
+	background: #000;
+	margin-bottom: 5px;
+	margin-right: 3px;
+	transition: all 1s;
+}
+.team{
+	width: 1250px;
+	height: 608px;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin:auto;
+	box-shadow: 0 0 50px 9999px rgba(0,0,0,.8);
+	display: none;
+}
+.team img{
+	display: inline-block;
+	float: left;
+	width: 608px;
+	height: 608px;
+}
+.team .words{
+	display: inline-block;
+	float: left;
+	width: 612px;
+	height: 608px;
+	background: #fff;
+	padding:0 15px;
+}
+.team .words h3{
+	font-size: 16px;
+	color: #000;
+	font-weight: normal;
+	line-height: 80px;
+}
+.team div p{
+	font-size: 14px;
+	color: rgb(102,102,102);
+}
